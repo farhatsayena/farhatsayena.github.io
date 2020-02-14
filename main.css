@@ -1,0 +1,69 @@
+.main {
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  /* left: 30%; */
+  color: white;
+  /* display: grid; */
+  place-items: center;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 400%;
+}
+
+.description {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 200%;
+}
+
+img {
+  min-height: 100vh;
+}
+
+@media (min-width: 375px) {
+  img {
+    width: 374px;
+  }
+  .description {
+    color: black;
+    font-size: 100%;
+  }
+  .title {
+    font-size: 200%;
+  }
+}
+@media (min-width: 425px) {
+  img {
+    width: 425px;
+  }
+}
+@media (min-width: 768px) {
+  img {
+    width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  img {
+    width: 1024px;
+  }
+}
+@media (min-width: 1440px) {
+  img {
+    width: 1440px;
+  }
+  .description {
+    color: white;
+    font-size: 200%;
+  }
+  .title {
+    font-size: 400%;
+  }
+}
